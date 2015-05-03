@@ -14,11 +14,11 @@ Karm is a web app that practically gamifies the idea of being a good neighbor. K
 
 ## Team Members
 
-* Alastair Paragas `alastairparagas@gmail.com`
-* Fernando Mendez `fernando@circuitsquad.org`
-* Jason Cassera `jason@circuitsquad.org`
-* Edward Marcos `edward@circuitsquad.org`
-* Fernando Mendez `fernando@circuitsquad.org`
+* Alastair Paragas `alastairparagas@gmail.com`, 
+* Aldo Egas `aldo@circuitsquad.org`, https://www.facebook.com/aldo.egas?fref=ts
+* Jason Cassera `jason@circuitsquad.org`, https://www.facebook.com/jason.cassera.3
+* Edward Marcos `edward@circuitsquad.org`, https://www.facebook.com/Eddiem94?fref=ts
+* Fernando Mendez `fernando@circuitsquad.org`, https://www.facebook.com/mendez.fernando?fref=ts
 
 ## Build System
 
