@@ -35,11 +35,19 @@
     
     // JSX Transpile, Uglify and Concatenate Javascript files
     gulp.task('js', function () {
+		var plumberSettings = {
+			errorHandler: function (error) {
+				util.beep();
+				console.log("JS Error: " + error);
+			}
+		};
         
         return gulp.src('./app/**/*.js')
+			.pipe(plumber(plumberSettings))
             .pipe(concat('app.min.js'))
             .pipe(gulp.dest('./scripts/'))
             .pipe(uglify())
+			.pipe(plumber.stop())
             .pipe(gulp.dest('./scripts/'));
     });
     
