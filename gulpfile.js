@@ -24,7 +24,7 @@
                 }
             };
         
-        return gulp.src('./styles/scss/*.scss')
+        return gulp.src('./styles/scss/all.scss')
             .pipe(plumber(plumberSettings))
             .pipe(sourcemaps.init())
             .pipe(sass(sassSettings))
