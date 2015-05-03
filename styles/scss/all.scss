@@ -1,2 +1,8 @@
-@import 'menu';
+@import 'variables';
+
 @import '../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+@import 'jumbotron';
+@import 'menu';
+@import 'typography';
+@import 'footer';

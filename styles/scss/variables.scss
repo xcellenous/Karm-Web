@@ -1,0 +1,34 @@
+$font-family-sans-serif:	"PT Sans", Arial, sans-serif;
+
+$brand-primary:				#314253;
+$brand-success:				#33E8FC;
+$brand-info:				#00B9F8;
+$brand-warning:				#FFBA2D;
+$brand-danger:				#FF6D54;
+
+$btn-primary-color:			lighten($brand-primary, 70%);
+$btn-success-color:			lighten($brand-success, 70%);
+$btn-info-color:			lighten($brand-info, 70%);
+$btn-warning-color:			lighten($brand-warning, 70%);
+$btn-danger-color:			lighten($brand-danger, 70%);
+
+$state-primary-bg:			$brand-primary;
+$state-success-bg:			$brand-success;
+$state-info-bg:				$brand-info;
+$state-warning-bg:			$brand-warning;
+$state-danger-bg:			$brand-danger;
+
+$state-primary-text:		$btn-primary-color;
+$state-success-text:		$btn-success-color;
+$state-info-text:			$btn-info-color;
+$state-warning-text:		$btn-warning-color;
+$state-danger-color:		$btn-danger-color;
+
+$navbar-default-bg: 		lighten($brand-primary, 20%);
+$navbar-height:				70px;
+$navbar-default-color:		#fff;
+$navbar-default-link-color: #fff;
+
+$jumbotron-bg:				$brand-info;
+$jumbotron-heading-color:	#fff;
+$jumbotron-color:			$btn-info-color;

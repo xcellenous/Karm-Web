@@ -1,1 +1,7 @@
-$navbar-default-bg: blue;
+$navbar-image-height:	$navbar-height - 10px;
+
+.navbar-brand img {
+	position: absolute;
+	height: $navbar-image-height;
+	top: ($navbar-height - $navbar-image-height)/2 + 2;
+}

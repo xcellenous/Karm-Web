@@ -1,0 +1,8 @@
+.jumbotron {
+	margin-top: -$line-height-computed;
+	position: relative;
+	text-align: center;
+	h1 small {
+			color: inherit;	
+	}
+}
