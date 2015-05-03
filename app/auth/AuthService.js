@@ -16,7 +16,9 @@
 		*/
 		function bootstrapAuth() {
 			function stateChangeHandler(event, toState, toParams) {
-				if (toState.data.auth === true && isLoggedIn === false) {
+				if (toState.data &&
+						toState.data.auth === true &&
+						isLoggedIn === false) {
 					self.login().then(
 						null,
 						function (response) {

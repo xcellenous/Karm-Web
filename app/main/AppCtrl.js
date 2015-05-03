@@ -6,6 +6,8 @@
 
 	function AppCtrl($scope, $state, AuthService) {
 		
+		$scope.app = {};
+		
 		/**
 			@memberof AppCtrl
 			@description Is a user logged in to our application
