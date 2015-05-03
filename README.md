@@ -20,6 +20,10 @@ Karm is a web app that practically gamifies the idea of being a good neighbor. K
 * Edward Marcos `edward@circuitsquad.org`
 * Fernando Mendez `fernando@circuitsquad.org`
 
+## Build System
+
+We use a host of Gulp plugins to streamline our build process - turning our SASS to CSS files, concatenating our Javascript files and uglifying them to reduce HTTP requests and transpiling JSX to regular Javascript. Make sure to have Node.js, NPM, Bower and Gulp in your system and run `npm install` and `bower install` to install all our dependencies. Run `gulp` to run our build system to automatically do the described tasks above. For more information on Gulp, [click here](http://gulpjs.com/).
+
 ## More Information
 
 An extensive documentation about how Karm works, the technology behind it and how it helps make our cities smarter, is [posted online at https://docs.google.com/document/d/17hjlQ_Uiqd5KTECS0_FVFCm6Hn2Pm1UH_05QuQDahMs/edit?usp=sharing](https://docs.google.com/document/d/17hjlQ_Uiqd5KTECS0_FVFCm6Hn2Pm1UH_05QuQDahMs/edit?usp=sharing).
