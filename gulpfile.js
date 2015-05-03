@@ -42,7 +42,10 @@
 			}
 		};
         
-        return gulp.src('./app/**/*.js')
+        return gulp.src([
+				'./app/**/_config.js',
+				'./app/**/!(_config)*.js'
+			])
 			.pipe(plumber(plumberSettings))
             .pipe(concat('app.min.js'))
             .pipe(gulp.dest('./scripts/'))
