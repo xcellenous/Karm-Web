@@ -3,10 +3,11 @@
 	
 	var angular = window.angular;
 	
-	angular.module('karmapp', ['ui.router', 
+	angular.module('karmapp', ['ui.router',
 							   'ngFacebook',
 							   'react',
-							   'parse-angular', 
+							   'karmapp.auth',
+							   'parse-angular',
 							   'parse-angular.enhance']);
 	
 }(window));
